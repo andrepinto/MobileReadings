@@ -1,0 +1,51 @@
+.user-slug .slug-avatar {
+  /*border: 4px solid #bebebe;
+  border-radius: 2px;
+  float: left;
+  height: 29px;
+  margin-right: 16px;
+  -webkit-box-shadow: inset 0 1px 0 #0a0a0b, 0 1px 0 rgba(255, 255, 255, 0.06);
+  -moz-box-shadow: inset 0 1px 0 #0a0a0b, 0 1px 0 rgba(255, 255, 255, 0.06);
+  box-shadow: inset 0 1px 0 #0a0a0b, 0 1px 0 rgba(255, 255, 255, 0.06);
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text; */
+ float: left;
+  height: 29px;
+  margin-right: 16px;}
+.user-slug .slug-name {
+  color: #000000;
+  font-size: 12px;
+  margin: 4px 0 3px; }
+.user-slug .slug-status {
+  font-size: 12px;
+  padding-left: 0px;
+  position: relative; }
+  .user-slug .slug-status:before {
+    border-radius: 50%;
+    content: "";
+    height: 4px;
+    left: 3px;
+    position: absolute;
+    top: 4px;
+    width: 4px; }
+  .user-slug .slug-status.online {
+    color: #96bd40; }
+  
+
+  .last-col {
+  display: table-cell;
+  float: none;
+  width: auto;
+  _margin-right: -3px;
+  _left: -3px;
+  _position: relative;
+  *display: block;
+  *zoom: 1; }
+  .last-col:after {
+    clear: both;
+    display: block;
+    height: 0 !important;
+    line-height: 0;
+    visibility: hidden; }
